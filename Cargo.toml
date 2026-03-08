@@ -4,7 +4,7 @@ description = "VHDL grammar for tree-sitter"
 version = "1.4.0"
 authors = ["John-Philip Taylor"]
 license = "MIT"
-readme = "README.md"
+readme = "Readme.md"
 keywords = ["incremental", "parsing", "tree-sitter", "vhdl"]
 categories = ["parser-implementations", "parsing", "text-editors"]
 repository = "https://github.com/jpt13653903/tree-sitter-vhdl"
@@ -17,8 +17,9 @@ include = [
   "grammar.js",
   "queries/*",
   "src/*",
+  "!src/*.o",
   "tree-sitter.json",
-  "/LICENSE",
+  "/License.md",
 ]
 
 [lib]

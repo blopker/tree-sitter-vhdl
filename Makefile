@@ -112,4 +112,7 @@ clean:
 test:
 	$(TS) test
 
-.PHONY: all install uninstall clean test
+cargo_publish:
+	cargo publish
+
+.PHONY: all install uninstall clean test cargo_publish
